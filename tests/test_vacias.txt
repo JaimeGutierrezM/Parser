@@ -1,0 +1,5 @@
+Goal -> Expr
+Expr -> Term Tail
+Tail -> + Term Tail 
+Tail -> ε
+Term -> id

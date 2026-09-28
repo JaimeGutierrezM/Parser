@@ -1,0 +1,6 @@
+Prog' -> Prog
+Prog -> Stmt Prog
+Prog -> ε
+Stmt -> int id ;
+Stmt -> id = num ;
+Stmt -> print ( id ) ;

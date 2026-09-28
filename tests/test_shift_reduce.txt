@@ -1,0 +1,5 @@
+Goal -> S
+S -> if ( E ) S else S
+S -> if ( E ) S
+S -> id = num ;
+E -> id == num
